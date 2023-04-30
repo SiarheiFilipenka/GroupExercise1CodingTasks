@@ -11,6 +11,7 @@ public class Task10 {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j].equals(arr[i]) && i != j) {
                     System.out.println(arr[j]);
+                    break;
                 }
             }
         }

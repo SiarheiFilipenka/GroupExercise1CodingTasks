@@ -6,18 +6,15 @@ public class Task7 {
 
         int[] arr = new int[10];
 
+        System.out.println("First 10 numbers of Fibonacci series:");
+
         for (int i = 0; i < arr.length; i++) {
             if (i < 2) {
                 arr[i] = i;
             } else {
                 arr[i] = arr[i - 1] + arr[i - 2];
             }
-        }
-
-        System.out.println("First 10 numbers of Fibonacci series:");
-
-        for (int j : arr) {
-            System.out.print(j + " ");
+            System.out.print(arr[i] + " ");
         }
     }
 }
